@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Light Builder",
+    "icon": "./path/to/your/app-icon.png",
+    "version": "1.0.0",
+    "slug": "lightbuilder",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "ios": {
+      "bundleIdentifier": "com.baengineering.lightbuilder"
+    },
+    "android": {
+      "package": "com.baengineering.lightbuilder"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
